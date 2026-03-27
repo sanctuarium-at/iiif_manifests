@@ -28,7 +28,7 @@
               "motivation": "sc:painting",
               "on": "https://example.org/iiif/canvas/1",
               "resource": {
-                "@id": "https://digi.landesbibliothek.at/viewer/api/v1/records/390/files/images/00000008.tif/full/full/0/default.jpg",
+                "@id": "https://digi.landesbibliothek.at/viewer/api/v1/records/390/files/images/00000008.tif/700,400,500,1100/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 1100,
