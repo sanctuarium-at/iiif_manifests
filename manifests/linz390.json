@@ -1,33 +1,43 @@
+
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "https://raw.githubusercontent.com/sanctuarium-at/iiif_manifests/refs/heads/main/manifests/linz390.json",
   "@type": "sc:Manifest",
   "label": {
-  "@value": "Fragment from record 390",
-  "@language": "en"
+    "@value": "Fragment from record 390",
+    "@language": "en"
   },
   "sequences": [
     {
+      "@id": "https://example.org/iiif/sequence/1",
       "@type": "sc:Sequence",
-      "@id": "https://example.org/iiif/manifest/390-fragment/sequence/normal",
       "canvases": [
         {
-          "@id": "https://example.org/iiif/canvas/390-fragment",
+          "@id": "https://example.org/iiif/canvas/1",
           "@type": "sc:Canvas",
-          "label": "Image fragment",
+          "label": {
+            "@value": "Image fragment",
+            "@language": "en"
+          },
           "height": 1100,
           "width": 500,
           "images": [
             {
+              "@id": "https://example.org/iiif/annotation/1",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://example.org/iiif/canvas/390-fragment",
+              "on": "https://example.org/iiif/canvas/1",
               "resource": {
                 "@id": "https://digi.landesbibliothek.at/viewer/api/v1/records/390/files/images/00000008.tif/700,400,500,1100/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 1100,
-                "width": 500
+                "width": 500,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digi.landesbibliothek.at/viewer/api/v1/records/390/files/images/00000008.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
               }
             }
           ]
