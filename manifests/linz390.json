@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://example.org/iiif/manifest/390-fragment",
+  "@id": "https://raw.githubusercontent.com/sanctuarium-at/iiif_manifests/refs/heads/main/manifests/linz390.json",
   "@type": "sc:Manifest",
   "label": "Fragment from record 390",
   "sequences": [
