@@ -2,7 +2,10 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "https://raw.githubusercontent.com/sanctuarium-at/iiif_manifests/refs/heads/main/manifests/linz390.json",
   "@type": "sc:Manifest",
-  "label": "Fragment from record 390",
+  "label": {
+  "@value": "Fragment from record 390",
+  "@language": "en"
+  },
   "sequences": [
     {
       "@type": "sc:Sequence",
