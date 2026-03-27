@@ -1,0 +1,35 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/manifest/390-fragment",
+  "type": "Manifest",
+  "label": { "en": ["Fragment from record 390"] },
+  "items": [
+    {
+      "id": "https://example.org/iiif/canvas/390-fragment",
+      "type": "Canvas",
+      "height": 1100,
+      "width": 500,
+      "items": [
+        {
+          "id": "https://example.org/iiif/page/390-fragment",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/390-fragment",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iiif/canvas/390-fragment",
+              "body": {
+                "id": "https://digi.landesbibliothek.at/viewer/api/v1/records/390/files/images/00000008.tif/700,400,500,1100/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1100,
+                "width": 500
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
